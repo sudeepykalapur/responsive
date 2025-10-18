@@ -538,6 +538,12 @@ main {
   border-radius: 50%;
 }
 
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 900px) {
   #view1 {
     display: flex;
@@ -669,6 +675,7 @@ main {
   }
   footer {
     display: flex;
+    flex-direction: row;
     width: 100%;
   }
   footer .left {
@@ -682,7 +689,7 @@ main {
     margin-top: 17.5rem;
   }
   footer .right {
-    width: 75%;
+    width: 78%;
   }
   footer .right > #view9 > .mid {
     display: flex;

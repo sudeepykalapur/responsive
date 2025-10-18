@@ -492,6 +492,9 @@ main{
         }
     }
 }
+footer{
+    @include flex-column();
+}
 @media(min-width:900px){
     #view1{
         display: flex;
@@ -635,6 +638,7 @@ main{
     }
     footer{
         display: flex;
+        flex-direction: row;
         width: 100%;
         .left{
             width: 25%;
@@ -647,7 +651,7 @@ main{
             }
         }
         .right{
-            width: 75%;
+            width: 78%;
         }
         .right>#view9>.mid{
             display: flex;
